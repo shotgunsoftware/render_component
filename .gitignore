@@ -14,7 +14,9 @@ doc
 # jeweler generated
 pkg
 
-Gemfile*
+Gemfile.lock
+example_app
+render_component*gem
 
 # Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore: 
 #

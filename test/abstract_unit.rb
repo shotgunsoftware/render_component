@@ -1,6 +1,6 @@
 require 'rubygems'
 ENV["RAILS_ENV"] = "test"
-require File.expand_path('../../../../../config/environment', __FILE__)
+require_relative '../example_app/config/environment'
 require 'rails/test_help'
 
 $: << File.dirname(__FILE__) + "/../lib"
