@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "render_component"
-  s.version = "4.1.4"
+  s.version = "4.2.0"
   s.authors = ["David Heinemeier Hansson", "Sergio Cambra", "Mathieu Jobin"]
   s.email = ["david@loudthinking.com", "sergio@programatica.es", "mathieu@justbudget.com"]
   s.homepage = "http://github.com/mathieujobin/render_component"
@@ -10,11 +10,12 @@ Gem::Specification.new do |s|
   s.description = "Components allow you to call other actions for their rendered response while executing another action"
   s.licenses = ["MIT"]
 
+  s.required_ruby_version = '~> 2.4'
   s.extra_rdoc_files = ["LICENSE.txt", "README"]
   s.files = Dir["lib/**/*"] + ["LICENSE.txt", "README"]
   s.require_paths = ["lib"]
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
-  s.add_runtime_dependency(%q<railties>, ["~> 4.1.0"])
+  s.add_runtime_dependency(%q<railties>, ["~> 4.2.0"])
 end
 
