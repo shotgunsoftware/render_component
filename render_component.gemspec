@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "render_component"
-  s.version = "5.1.0"
+  s.version = "5.2.0"
   s.authors = ["David Heinemeier Hansson", "Sergio Cambra", "Mathieu Jobin"]
   s.email = ["david@loudthinking.com", "sergio@programatica.es", "mathieu@justbudget.com"]
   s.homepage = "http://github.com/mathieujobin/render_component"
@@ -15,6 +15,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
-  s.add_runtime_dependency(%q<railties>, ["~> 5.1.0"])
+  s.add_runtime_dependency(%q<railties>, ["~> 5.2.0"])
 end
 
