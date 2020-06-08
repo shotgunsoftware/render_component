@@ -14,15 +14,15 @@ require './lib/render_component/version.rb'
 
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "render_component_vho"
+  gem.name = "render_component_sg"
   gem.version = RenderComponent::Version::STRING
-  gem.homepage = "http://github.com/vhochstein/render_component"
+  gem.homepage = "http://github.com/shotgunsoftware/render_component"
   gem.license = "MIT"
   gem.summary = %Q{render actions in other controllers for their rendered response}
   gem.description = %Q{Components allow you to call other actions for their rendered response while executing another action}
   gem.email = "david@loudthinking.com"
   gem.authors = ["David Heinemeier Hansson"]
-  gem.add_runtime_dependency 'railties', '~>3.0.0'
+  gem.add_runtime_dependency 'railties', '~>2.3.18'
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
