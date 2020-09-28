@@ -38,7 +38,7 @@ module RenderComponent
     module InstanceMethods
       # Extracts the action_name from the request parameters and performs that action.
       def process_with_components(request, response, method = :perform_action, *arguments) #:nodoc:
-        flash.discard if component_request?
+        # flash.discard if component_request?
         process_without_components(request, response, method, *arguments)
       end
       
@@ -149,7 +149,7 @@ module RenderComponent
         def assign_shortcuts_with_render_component(request, response)
           assign_shortcuts_without_render_component(request, response)
           flash(:refresh)
-          flash.sweep if @_session && !component_request?
+          # flash.sweep if @_session && !component_request?
         end
     end
   end
